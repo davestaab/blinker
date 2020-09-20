@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'the-game': true, 'the-game--easy': isEasy }">
+  <div :class="{ 'the-game': true, 'the-game--easy': isEasy, 'the-game--medium': isMedium, 'the-game--hard': isHard }">
     <button @click="clicked" class="the-game__button" :style="buttonStyle">Click me!</button>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       top: randomInt(100),
-      left: randomInt(100),
+      left: randomInt(100)
     };
   },
   computed: {
@@ -29,6 +29,12 @@ export default {
     },
     isEasy() {
       return this.difficulty === 'easy';
+    },
+    isMedium() {
+      return this.difficulty === 'medium';
+    },
+    isHard() {
+      return this.difficulty === 'hard';
     }
   },
   methods: {
@@ -50,6 +56,18 @@ export default {
   width: 30vw;
   height: 30vh;
   border: thin solid lightseagreen;
+}
+
+.the-game--medium {
+  width: 50vw;
+  height: 50vh;
+  border: thin solid yellow;
+}
+
+.the-game--hard {
+  width: 80vw;
+  height: 80vh;
+  border: thin solid orangered;
 }
 
 .the-game__button {
