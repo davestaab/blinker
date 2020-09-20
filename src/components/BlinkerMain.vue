@@ -23,7 +23,7 @@
 <script>
 import BlinkerGame from "./BlinkerGame.vue";
 
-const timerDuration = 3 * 1000;
+const timerDuration = 30 * 1000;
 export default {
   name: "BlinkerMain",
   components: {

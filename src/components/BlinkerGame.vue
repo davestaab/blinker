@@ -1,5 +1,6 @@
 <template>
-  <div :class="{ 'the-game': true, 'the-game--easy': isEasy, 'the-game--medium': isMedium, 'the-game--hard': isHard }">
+  <div :class="{ 'the-game': true, 'the-game--easy': isEasy, 'the-game--medium': isMedium, 'the-game--hard': isHard }"
+       :style="backgroundStyle">
     <button @click="clicked" class="the-game__button" :style="buttonStyle">Click me!</button>
   </div>
 </template>
@@ -20,7 +21,8 @@ export default {
   data() {
     return {
       top: randomInt(100),
-      left: randomInt(100)
+      left: randomInt(100),
+      hue: 0
     };
   },
   computed: {
@@ -35,6 +37,9 @@ export default {
     },
     isHard() {
       return this.difficulty === 'hard';
+    },
+    backgroundStyle() {
+      return `background-color: hsl(${this.hue}deg, 100%, 50%);`;
     }
   },
   methods: {
@@ -42,6 +47,7 @@ export default {
       this.$emit('hit');
       this.top = randomInt(100);
       this.left = randomInt(100);
+      this.hue = randomInt(360);
     }
   }
 }
@@ -50,6 +56,7 @@ export default {
 <style scoped>
 .the-game {
   position: relative;
+  transition: background-color 0.5s ease-in;
 }
 
 .the-game--easy {
