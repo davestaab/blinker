@@ -4,12 +4,13 @@
     <h3 v-show="!gameInProgress">Choose a difficulty</h3>
     <div class="blinker-main__button-row" v-show="!gameInProgress">
       <button @click="setDifficulty('easy')" class="blinker-main__button">easy</button>
-<!--      <button @click="setDifficulty('medium')" class="blinker-main__button">medium</button>-->
-<!--      <button @click="setDifficulty('hard')" class="blinker-main__button">hard</button>-->
+      <!--      <button @click="setDifficulty('medium')" class="blinker-main__button">medium</button>-->
+      <!--      <button @click="setDifficulty('hard')" class="blinker-main__button">hard</button>-->
     </div>
-    <h3 v-show="!gameInProgress && counter">
-      score: {{ counter }}
-    </h3>
+    <div v-show="!gameInProgress && counter">
+      <h3>difficulty: {{ difficulty }}</h3>
+      <h3>score: {{ counter }}</h3>
+    </div>
     <div v-show="gameInProgress">
       difficulty: {{ difficulty }}<br/>
       score: {{ counter }} <br/>
@@ -21,7 +22,8 @@
 
 <script>
 import BlinkerGame from "./BlinkerGame.vue";
-const timerDuration = 30 * 1000;
+
+const timerDuration = 3 * 1000;
 export default {
   name: "BlinkerMain",
   components: {
@@ -62,12 +64,11 @@ export default {
       window.clearInterval(this.intervalHandle);
       this.timeLeft = timerDuration;
       this.started = 0;
-      this.difficulty = '';
     },
     timerHandler() {
-      this.timeLeft = timerDuration  - (Date.now() - this.started);
+      this.timeLeft = timerDuration - (Date.now() - this.started);
       // console.log('timerHandler', this.started, this.timeLeft, this.intervalHandle);
-      if(this.timeLeft < 0) {
+      if (this.timeLeft < 0) {
         this.stopTimer();
       }
     }
