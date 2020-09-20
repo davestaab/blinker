@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="972e3415-dfb6-40ee-84bc-7bfa2f09479f" name="Default Changelist" comment="">
+    <list default="true" id="972e3415-dfb6-40ee-84bc-7bfa2f09479f" name="Default Changelist" comment="don't wrap the click me button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlinkerGame.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlinkerGame.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BlinkerMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlinkerMain.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,12 +78,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600563344027</updated>
-      <workItem from="1600563345221" duration="7305000" />
+      <workItem from="1600563345221" duration="7609000" />
     </task>
+    <task id="LOCAL-00001" summary="updated title, and prevent mobile zoom">
+      <created>1600604219953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600604219953</updated>
+    </task>
+    <task id="LOCAL-00002" summary="workspace config changes">
+      <created>1600604255772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600604255772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="show difficulty at the end of the game">
+      <created>1600604290762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600604290762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="don't wrap the click me button">
+      <created>1600604308583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600604308583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated title, and prevent mobile zoom" />
+    <MESSAGE value="workspace config changes" />
+    <MESSAGE value="show difficulty at the end of the game" />
+    <MESSAGE value="don't wrap the click me button" />
+    <option name="LAST_COMMIT_MESSAGE" value="don't wrap the click me button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2635" y="348" key="#Notifications" timestamp="1600563362886">
@@ -100,10 +134,10 @@
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
     <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600563589295" />
-    <state x="2012" y="96" width="1736" height="856" key="DiffContextDialog" timestamp="1600604148991">
+    <state x="2012" y="96" width="1736" height="856" key="DiffContextDialog" timestamp="1600604489309">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="2012" y="96" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604148991" />
+    <state x="2012" y="96" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604489309" />
     <state x="2660" y="279" key="FileChooserDialogImpl" timestamp="1600569281753">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
@@ -120,26 +154,30 @@
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
     <state x="2738" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600569359023" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600603651997">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1600604310721">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600603651997" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1600603651997">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604310721" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1600604310721">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600603651997" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1600603651997">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604310721" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1600604310720">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600603651997" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1600603651997">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604310720" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1600604310721">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600603651997" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604310721" />
     <state x="2381" y="169" key="SettingsEditor" timestamp="1600563380638">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>
     <state x="2381" y="169" key="SettingsEditor/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600563380638" />
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600604328832">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1600604328832" />
     <state x="2587" y="257" width="585" height="534" key="find.popup" timestamp="1600565437886">
       <screen x="1920" y="4" width="1920" height="1040" />
     </state>

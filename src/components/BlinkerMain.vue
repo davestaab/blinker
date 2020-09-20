@@ -4,8 +4,8 @@
     <h3 v-show="!gameInProgress">Choose a difficulty</h3>
     <div class="blinker-main__button-row" v-show="!gameInProgress">
       <button @click="setDifficulty('easy')" class="blinker-main__button">easy</button>
-      <!--      <button @click="setDifficulty('medium')" class="blinker-main__button">medium</button>-->
-      <!--      <button @click="setDifficulty('hard')" class="blinker-main__button">hard</button>-->
+      <button @click="setDifficulty('medium')" class="blinker-main__button">medium</button>
+      <button @click="setDifficulty('hard')" class="blinker-main__button">hard</button>
     </div>
     <div v-show="!gameInProgress && counter">
       <h3>difficulty: {{ difficulty }}</h3>
