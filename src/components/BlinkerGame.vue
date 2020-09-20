@@ -54,5 +54,6 @@ export default {
 
 .the-game__button {
   position: absolute;
+  white-space: nowrap;
 }
 </style>
